@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10 publications">
+      <h2>Publications</h2>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      <p>Do you have anything to share with us? Even if it just interest. Email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      <p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+  <div>
+</div>

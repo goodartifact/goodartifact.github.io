@@ -1,0 +1,30 @@
+body *{
+  font-family: 'Playfair Display', Georgia, serif;
+}
+.publications li{
+  font-size: 3em;
+  list-style: none;
+}
+p{
+  font-size: 1.6em;
+}
+a{
+  font-weight: 700;
+  color: #000 !important;
+}
+a:hover{
+  font-style: italic;
+  text-decoration: none !important;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.button{
+  font-weight: 500 !important;
+  background-color: #000;
+  margin-top: 40px;
+  padding: 20px;
+  color: #fff !important;
+}
