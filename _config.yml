@@ -3,7 +3,7 @@ title: Good Artifact
 email: goodartifact@gmail.com
 description: "Free zine about everything and nothing. Curating fragments of the internet and brings it to you in a print form. Based in Ottawa."
 baseurl: ""
-url: "http://localhost:4000/"
+url: "http://goodartifact.github.io/"
 
 # Build settings
 markdown: kramdown
