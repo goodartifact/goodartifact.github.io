@@ -1,4 +1,4 @@
-good-artifact.github.io
+goodartifact.github.io
 =======================
 
 Good Artifact Webstie
